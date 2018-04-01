@@ -49,7 +49,7 @@ module.exports = (options) => {
       port: options.port,
       host: '0.0.0.0'
     },
-    entry: './src/scripts/index.vue',
+    entry: './src/index.vue',
     output: {
       filename: 'js/bundle.js',
       path: paths.dist(),
